@@ -8,8 +8,7 @@ function App() {
   const componentRef = useRef();
 
   return (
-    <div>
-      hthis is test
+    <div>      
       <ReactToPrint
         trigger={() => <button>Print this out!</button>}
         content={() => componentRef.current}
